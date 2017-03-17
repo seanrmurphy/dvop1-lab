@@ -6,6 +6,10 @@ import os
 app = Flask(__name__)
 port = int(os.getenv('PORT', '3000'))
 
+@app.route('/')
+def status():
+	return ('CCP2 - Devops 1 Lab Demonstration Service!')
+
 @app.route('/status')
 def status():
 	return (json.dumps({'status': 'OK'}))
