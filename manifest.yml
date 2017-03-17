@@ -1,0 +1,7 @@
+
+applications:
+- name: dvop1-lab-test-TEAM
+  host: dvop1-lab-test-TEAM
+  memory: 64M
+  env:
+    NODE_ENV: production
