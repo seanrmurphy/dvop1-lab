@@ -1,2 +1,2 @@
-Content for the DVOP1 Lab.
+Content for the DVOP1 Lab. Include python app.
 
