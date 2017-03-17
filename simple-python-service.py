@@ -7,7 +7,7 @@ app = Flask(__name__)
 port = int(os.getenv('PORT', '3000'))
 
 @app.route('/')
-def status():
+def root_endpoint():
 	return ('CCP2 - Devops 1 Lab Demonstration Service!')
 
 @app.route('/status')
