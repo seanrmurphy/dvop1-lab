@@ -1,1 +1,1 @@
-web: python simple-python-service.py
+web: python simple_python_service.py
