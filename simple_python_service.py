@@ -8,7 +8,7 @@ port = int(os.getenv('PORT', '3000'))
 
 @app.route('/')
 def root_endpoint():
-	return ('CCP2 - Devops 1 Lab Demonstration Service - v1.3')
+	return ('CCP2 - Devops 1 Lab Demonstration Service - v1.4')
 
 @app.route('/status')
 def status():
