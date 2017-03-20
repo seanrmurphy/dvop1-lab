@@ -1,6 +1,6 @@
 import datetime
 import unittest
-#from simple_python_service import *
+from simple_python_service import *
 import sys
 
 print sys.path
