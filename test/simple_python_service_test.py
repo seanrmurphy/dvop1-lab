@@ -1,5 +1,6 @@
 import datetime
 import unittest
+from simple_python_service import *
 
 class TestSimpleService(unittest.TestCase):
 
