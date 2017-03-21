@@ -6,7 +6,7 @@ class TestSimpleService(unittest.TestCase):
 
     def test_root_endpoint(self):
         return_val = root_endpoint()
-        self.assertEqual(return_val, 'CCP2 - Devops 1 Lab Demonstration Service!')
+        self.assertEqual(return_val, 'CCP2 - Devops 1 Lab Demonstration Service - v1.0')
 
 
     def test_status(self):
